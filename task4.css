@@ -1,0 +1,116 @@
+{ 
+ margin : 0
+ padding : 0
+ font-family : 'Poppins' , sans-serif;
+ box-sizing : border-box;
+}
+body{
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./EG-en-20231120-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  position: relative;
+}
+.head{
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    width: 250px;
+}
+nav button{
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    padding: 7px 20px;
+    background-color: red;
+    color: aliceblue;
+}
+.headcontent{
+    color: aliceblue;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 25px;
+}
+.email-signup{
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.email-signup input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 450px;
+    padding: 14px 40px;
+}
+.email-signup button{
+    background-color: red;
+    border: 0;
+    outline: 0;
+    color: aliceblue;
+    font-size: 16px;
+    margin-right: 450px;
+    padding: 14px 40px;
+}
+.page2{
+    color: aliceblue;
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+.ta7rer{
+    color: aliceblue;
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+.ta7rer li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.ta7rer li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+
+}
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 400px;
+}
+.ta7rer .content{
+    overflow: hidden;
+    background:
+    text-align: left;
+    max-height: 0;
+    padding: 0 20px;
+}
+.ta7rer input[type="radio"]:checked + label + .content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+.page2 .email-signup{
+    max-width: 600px;
+    margin: 20px auto 60px;
+}
+.page2 small{
+    font-size: 13px;
+}
